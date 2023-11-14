@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/15c4b20f32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Hero Section Start-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1>Nkosikhona</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>HTML Developer</p>
+                    <h1>Hi,I'm Nkosikhona <br> Mdluli</h1>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------about Me--------------------------------------->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                <div class="about-col-1"><a href="https://ibb.co/dmbT2GQ"><img src="https://i.ibb.co/xFmkjJM/New-Project.jpg" alt="New-Project" border="0" width="400px"></a></div>
+                <div class="about-col-2"><h2 class="sub-title">About Me</h2>
+                <p>Aspiring HTML Email Developer with a foundation in framework such as MJML to create responsive email template and familiar with lithmus putsmail testing platform.Passionate about crafting visually appealing and effective email designs.Continuously learning new skills such as javascript and eager to contribute my skills to create impactful email campaigns.Explore my portfolio to see how I'm evolving and growing in the field. </p>
+                
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------Services--------------------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="services-list">
+                <div>
+                    <i class="fab fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>As web developer in HTML email I am willing to be updated with the industry standard and best practices and staying up-to-date with evolving trends</p>
+                    
+                </div>
+                <div>
+                    <i class="fab fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>With the help of CSS I create visually appealing email design that align with brand identity,utilizing effective layouts,typography, and imagery</p>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-sharp fa-envelope"></i>
+                    <h2>MJML</h2>
+                    <p>Developing responsive HTML emails that adapt seamlessly to different screen sizes, ensuring optimal user experience on desktop,mobile, and tablet devices.</p>
+    
+                </div>    
+            </div>
+        </div>
+    </div>
+    <!-------------------------------Portfolio------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <a href="https://ibb.co/YdtfbNb"><img src="https://i.ibb.co/kDhqMGM/1.jpg" alt="1" border="0"></a>
+                    <div class="layer">
+                        <h3>Newsletter Email</h3>
+                        <p>The purpose of this Email is to showcase CSS position property,this property is used to set the position of text over
+                        the image.</p>
+                        <a href="https://htmlnewsletter.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://i.ibb.co/LhZySBQ/16522a701585873b.webp" alt="16522a701585873b" border="0">
+                    <div class="layer">
+                        <h3>Newsletter Email</h3>
+                        <p>This email showcase the skill and capability of coding the exist email from Uber Eat</p>
+                        <a href="https://ubereat22.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <a href="#"><img src="https://i.ibb.co/T8B10F9/Stablecoins-On-Hedera-Banner-v4.jpg"
+                            alt="Stablecoins-On-Hedera-Banner-v4" border="0" ></a>
+                    <div class="layer">
+                        <h3>Transaction Email</h3>
+                        <p>This email showcase the skill and capability of coding the exist Responsive email from Hedera</p>
+                        <a href="https://hhedera22.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Nkosikhonabb?tab=repositories" target="_blank" class="btn">View Github</a>
+        </div>
+    </div>
+<!------------------------------------Contact------------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h3 class="sub-title">Contact Me</h3>
+                <p><i class="fas fa-solid fa-envelope"></i>contact@ nkosikhonankosi56@gmail.com</p>
+                <p><i class=" fas fa-solid fa-phone"></i>0736732401</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fas fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="Nkosikhona Mdluli CV.pdf" download class="btn btn2" download>Download CV</a>
+            </div>
+            <div class="contact-rigth">
+                <form action="https://formspree.io/f/mpzgqldn" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>
+        copyright @Nkosikhona <i class=" fas fa-solid fa-heart"></i>
+    </p>
+    </div>
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablinks of tablinks){
+                    tablinks.classlist.remove("active-link");
+                }
+                 for (tablinks of tabcontents) {
+                    tabcontebts.classlist.remove("active-tab");
+                }
+                event.currentTarget.classlist.add("active-link");
+                document.getElementById(tabname).classlist.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu() {
+                    sidemeu.style.right = "-200px";
+                } 
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbywmooyoyvCMNT_YVyfH-vsnkAMyixPNbi8kTHA6i6EQX01nqYPaeSeS2SfXQOWotVvRQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById(msg)
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+</html>
